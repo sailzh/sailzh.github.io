@@ -75,7 +75,11 @@ if (!document.createElement('canvas').getContext) {
 	adjustCodePosition();
 	$("#code").typewriter();
 }
-
+function myrefresh() 
+{ 
+window.location.reload(); 
+} 
+setTimeout('myrefresh()',10000); //指定1秒刷新一次 
 </script>
 <div style="text-align:center;clear:both"></div>
 </body>
